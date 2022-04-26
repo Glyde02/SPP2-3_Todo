@@ -1,0 +1,131 @@
+body{
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 0;
+
+    background-image: url(background.png);
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+.table-main{
+    margin: 5% auto;
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+    border-collapse: collapse;
+    border: 3px solid darkgrey;
+    background-color: rgb(248, 248, 248);
+    opacity: 0.85;
+    color: black;
+    text-shadow: none;
+
+
+
+}
+td {
+    border: 1px solid darkgrey;
+}
+thead{
+    border: 2px solid darkgrey;
+}
+.table-name{
+    display: flex;
+}
+input {
+    display: block;
+    width:100%;
+    height: 100%;
+}
+.name-text{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    border: 0px;
+}
+.table-status{
+    width: 200px;
+}
+.table-date{
+
+}
+.table-file{
+
+}
+button{
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.table-button-change{
+    width: 80%;
+    height: 80%;
+}
+.table-button-delete{
+    width: 80%;
+    height: 80%;
+}
+.table-button-edit{
+    width: 80%;
+    height: 80%;
+}
+.table-status-active{
+    color: green;
+}
+.table-status-inactive{
+    color: red;
+}
+.input-block{
+
+
+}
+
+.footer-block{
+    width: 95%;
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+    height: 40px;
+
+    background-color: aliceblue;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.footer-block-file{
+    width: 95%;
+    display: flex;
+    justify-content:space-between;
+    margin: 20px auto;
+    height: 40px;
+
+    color: #000;
+    background-color: aliceblue;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.input-name{
+    width: 45%;
+    left: 0;
+    border: 0px;
+    border-right: 1px;
+    border-radius: 5px 0 0 5px;
+    background-color: rgb(81, 86, 90);
+    opacity: 1;
+    color: white;
+    font-size: 25px;
+}
+.input-name::placeholder{
+    color: rgb(216, 214, 214);
+}
+.input-submit{
+    margin-right: 0;
+}
